@@ -1,0 +1,142 @@
+*{
+  user-select: none;
+}
+div {
+  height: 97vh;
+  background: rgb(35, 100, 99);
+  background: linear-gradient(
+    180deg,
+    rgba(35, 100, 99, 1) 0%,
+    rgba(199, 222, 222, 1) 100%,
+    rgba(209, 224, 209, 1) 100%
+  );
+}
+nav {
+  grid-column: auto;
+  height: 20vh;
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+nav h4 {
+  margin-right: 3rem;
+  display: grid;
+  grid-column: auto;
+  color: #246563;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 0.5rem;
+}
+.matn {
+  display: grid;
+  grid-column: auto;
+  color: #ffffff;
+  /* height: 20vh; */
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.7rem;
+}
+.matn1 {
+  display: grid;
+  grid-column: auto;
+  color: #ffffff;
+  /* height: 20vh; */
+  margin-top: -1rem;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.8rem;
+}
+.matn2 {
+  display: grid;
+  grid-column: auto;
+  color: #ffffff;
+  /* height: 5vh; */
+  width: 90vw;
+  margin-right: 3.8rem;
+}
+.matn3 {
+  display: grid;
+  grid-column: auto;
+  color: #ffffff;
+  width: 88.5vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: end;
+  justify-content: end;
+}
+.photo{
+  height: 47%;
+}
+.between{
+  height: 47%;
+  margin-top: -1rem;
+  margin-right: 27rem;
+}
+
+.footer {
+  color: #276664;
+  margin-left: 4.2rem;
+  text-align: end;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+  bottom: 4.5rem;
+  /* margin-top: -2.5rem; */
+  /* display: flex; */
+}
+
+@media (max-width: 1280px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1280px) {
+  .matn {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1280px) {
+  .matn1 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1280px) {
+  .matn2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1280px) {
+  .matn3 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 576px) {
+  .between {
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
